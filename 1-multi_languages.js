@@ -1,4 +1,3 @@
-muhammed = ["Oke", "Muhammed", "Is", "Good"]
-for (let i = 0; i < muhammed.length; i++) {
-    console.log(muhammed[i])
-}
+console.log("C is fun");
+console.log("Python is cool");
+console.log("JavaScript is amazing");
