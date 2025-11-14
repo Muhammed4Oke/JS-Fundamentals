@@ -5,5 +5,5 @@ if (!args1){
 } else if (!args2){
   console.log(`${args1}`);
 } else {
-  console.log(`2 arguments: ${args1} ${args2}`)
+  console.log(`2 arguments: "${args1} ${args2}"`)
 }
