@@ -1,10 +1,7 @@
-const args1 = process.argv[2];
-const args2 = process.argv[3];
+const arg = process.argv[2];
 
-if (!args1) {
+if (!arg) {
   console.log('No argument');
-} else if (!args2) {
-  console.log(args1);
 } else {
-  console.log(`2 arguments: "${args1} ${args2}"`);
+  console.log(arg);
 }
