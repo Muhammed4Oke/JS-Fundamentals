@@ -5,10 +5,11 @@ const num2 = parseInt(arg1, 10);
 if (arg === undefined || arg1 === undefined) {
     console.log("NaN");
 }
+else {
 function add(num1, num2) {
     return num1 + num2;
 }
 console.log(add(num1, num2));
 if (isNaN(num1) && isNaN(num2)) {
     console.log("NaN");
-}
+}}
