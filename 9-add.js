@@ -9,3 +9,6 @@ console.log(add(num1, num2));
 if (isNaN(num1) && isNaN(num2)) {
     console.log("NaN");
 }
+else if (isNaN(num1) || isNaN(num2)) {
+    console.log("NaN");
+}
