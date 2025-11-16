@@ -9,6 +9,6 @@ console.log(add(num1, num2));
 if (isNaN(num1) && isNaN(num2)) {
     console.log("NaN");
 }
-else if ((num1 === undefined) && (num2 === undefined)) {
+else if (arg === undefined && arg1 === undefined) {
     console.log("NaN");
 }
