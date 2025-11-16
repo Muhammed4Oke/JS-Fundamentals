@@ -2,7 +2,7 @@ const arg = process.argv[2];
 const arg1 = process.argv[3];
 const num1 = parseInt(arg, 10);
 const num2 = parseInt(arg1, 10);
-if (arg === undefined && arg1 === undefined) {
+if (arg === undefined || arg1 === undefined) {
     console.log("NaN");
 }
 function add(num1, num2) {
